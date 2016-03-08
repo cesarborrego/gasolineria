@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#1E88E5</color>-->
+    <!--<color name="colorPrimaryDark">#1976D2</color>-->
+    <color name="colorPrimary">#09A6D1</color>
+    <color name="colorPrimaryDark">#A4A4A4</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#e8eaf6</color>
+    <color name="navigationBarColor">#3949ab</color>
+    <color name="colorAccent">#09A6D1</color>
+    <color name="white">#FFF</color>
+    <color name="backgroundTagInfo">#BBDEFB</color>
+    <color name="backgroundTagInfoGrey">#848484</color>
+
+    <color name="txtGrey">#6E6E6E</color>
+    <color name="backGrey">#424242</color>
+
+    <color name="borderBtnLogin">#0080FF</color>
+    <color name="borderBtnErrorLogin">#EF5350</color>
+    <color name="borderBtnErrorLoginPressed">#FF8A80</color>
+
+    <color name="newGrey">#585858</color>
+    <color name="newGrey2">#A4A4A4</color>
+</resources>

@@ -1,0 +1,55 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => comneologyecurfid/src/main/AndroidManifest.xml
+* libs/armeabi/libserial_port.so => comneologyecurfid/src/main/jniLibs/armeabi/libserial_port.so
+* libs/armeabi/libsystem_control.so => comneologyecurfid/src/main/jniLibs/armeabi/libsystem_control.so
+* libs/atid.dev.barcode.jar => comneologyecurfid/libs/atid.dev.barcode.jar
+* libs/atid.dev.rfid.jar => comneologyecurfid/libs/atid.dev.rfid.jar
+* libs/atid.system.comm.jar => comneologyecurfid/libs/atid.system.comm.jar
+* libs/atid.system.ctrl.jar => comneologyecurfid/libs/atid.system.ctrl.jar
+* libs/atid.system.device.jar => comneologyecurfid/libs/atid.system.device.jar
+* libs/atid.util.jar => comneologyecurfid/libs/atid.util.jar
+* libs/bcprov-jdk15on-149.jar => comneologyecurfid/libs/bcprov-jdk15on-149.jar
+* res/ => comneologyecurfid/src/main/res/
+* src/ => comneologyecurfid/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

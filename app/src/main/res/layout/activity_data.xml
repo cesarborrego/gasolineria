@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mapa1"
+
+    tools:context="com.neo.gas_ec.DataActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/header"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/titulo"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="25dp"
+            android:src="@drawable/campos5"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/plecacuadors2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:id="@+id/plateID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:layout_marginLeft="30dp"
+            android:text="ASDFREW212"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:id="@+id/folioID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:text="@string/hello_world"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/menuBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        card_view:fab_addButtonColorNormal="@color/newGrey"
+        card_view:fab_addButtonColorPressed="@color/newGrey2"
+        card_view:fab_addButtonSize="normal"
+        card_view:fab_labelStyle="@style/menu_labels_style"
+        card_view:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/searchBtnID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:fab_colorNormal="@color/newGrey"
+            card_view:fab_colorPressed="@color/newGrey2"
+            card_view:fab_icon="@drawable/ic_search"
+            card_view:fab_title="@string/action_search" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/settingsBtnID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:fab_colorNormal="@color/newGrey"
+            card_view:fab_colorPressed="@color/newGrey2"
+            card_view:fab_icon="@drawable/ic_settings_white_24dp"
+            card_view:fab_title="@string/action_settings" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>

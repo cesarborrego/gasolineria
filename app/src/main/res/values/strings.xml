@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Gasolina Ec</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">SETTINGS</string>
+    <string name="action_search">SEARCH</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="nfc_warning">NFC NO AVAILABLE</string>
+
+    <!-- Main Activity-->
+    <string name="uidLbl">UID</string>
+    <string name="folioTagLbl">FOLIO TAG</string>
+    <string name="plateNumberLbl">PLATE NUMBER</string>
+    <string name="subsidyLbl">SUBSIDY</string>
+    <string name="numberGallonsLbl">NUMBER OF GALLONS PER MONTH</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!--Login-->
+    <string name="userName">Username</string>
+    <string name="pwd">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="dataInvalid">Invalid Data</string>
+    <string name="pleaseTryAgain">Please try again</string>
+
+    <!--Title Bar-->
+    <string name="gralInfo">General Information</string>
+    <string name="movements">Movements</string>
+    <string name="fuel">Amount per Gallons</string>
+    <string name="receipt">Receipts</string>
+    <string-array name="tabs">
+        <item>TAB 1</item>
+        <item>TAB 2</item>
+        <item>TAB 3</item>
+    </string-array>
+
+    <!--Fragement Movements-->
+    <string name="numberDispenser">Number of Dispenser</string>
+    <string name="date">Date</string>
+
+    <!--Dialogs-->
+    <string name="serviceStations">Service Station</string>
+    <string name="title_activity_read_tag">ReadTagActivity</string>
+
+    <!--Dialog Login-->
+    <string name="ruc">RUC</string>
+    <string name="plateNumber">PLATE NUMBER</string>
+    <string name="okBtn">OK</string>
+    <string name="cancelBtn">CANCEL</string>
+    <string name="loginTitle">LOGIN</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="correctData">CORRECT DATA</string>
+    <string name="errorData">DATA NOT VALID</string>
+
+    <!--Row Movements-->
+    <string name="pump">PUMP</string>
+    <string name="gallonsSupplied">GALLONS SUPPLIED</string>
+    <string name="fuelType">FUEL TYPE</string>
+    <string name="pricPerGallon">PRICE PER GALLON</string>
+    <string name="stationRUC">STATION RUC</string>
+    <string name="taxPercentage">TAX PERCENTAGE</string>
+    <string name="dateTime">DATE TIME</string>
+    <string name="totalPaid">TOTAL PAID</string>
+    <string name="noMovements">NO RECORD MOVEMENTS</string>
+
+    <!--Gallons Consumed-->
+    <string name="gallonsConsumed">CONSUMED</string>
+    <string name="gallonsAvailable">AVAILABLE</string>
+    <string name="availabePercentage">GALLONS CONSUMED PERCENTAGE</string>
+
+    <!-- Settings -->
+    <string name="url">52.35.30.146:8080</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="settings_set">Settings successfully modified</string>
+    <string name="validateUsrPwd">Incorrect user or password</string>
+    <string name="all_fields_req">All fields is required</string>
+    <string name="title_activity_text_input_test">TextInputTest</string>
+
+    <string name="err_msg_name">ERROR NAME</string>
+    <string name="err_msg_email">ERROR MAIL</string>
+    <string name="err_msg_password">ERROR PASSWORD</string>
+
+    <string name="changeLang">CHANGE LANGUAGE</string>
+    <string name="change_Ip_Host">CHANGE IP AND PORT OF END-POINT</string>
+
+    <!--Languages-->
+    <string name="spanish">SPANISH</string>
+    <string name="english">ENGLISH</string>
+
+    <!--WS-->
+    <string name="errorHost">Unable to resolve host</string>
+
+    <!--PDF-->
+    <string name="dirPDF">Fuel_Bills_PDF</string>
+    <string name="completePDF">Complete download</string>
+
+    <!--Data Vehicle-->
+    <string name="placa">PLATE</string>
+    <string name="marca">VEHICLE BRAND</string>
+    <string name="subMarca">VEHICLE SUB BRAND</string>
+    <string name="modelo">VEHICLE MODEL</string>
+    <string name="vin">VIN</string>
+
+    <!--Tabla Movimientos-->
+    <string name="fecha">DATE</string>
+    <string name="estacion">STATION</string>
+    <string name="tipoCombustible">FUEL SUPPLIED</string>
+    <string name="total">TOTAL PAID</string>
+    <string name="recibo">RECEIPT</string>
+</resources>
